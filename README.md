@@ -1,6 +1,6 @@
 # OLED Screen Designer
 
-A GUI tool for visually designing layouts for SSD1306 and similar OLED displays. Renders elements through PIL/Pillow to a 1-bit canvas that accurately matches what the physical display will show, then exports ready-to-use Python drawing code.
+A GUI tool for visually designing layouts for SSD1306 and similar OLED displays. Renders elements through PIL/Pillow to a 1-bit canvas that accurately matches what the physical display will show, then exports ready-to-use Python drawing code.  Fair warning: much of this code was AI generated, and there *is* bugs, report them if you find any and I will do my best to fix them in a timely manner. Thank you!
 
 ## Features
 
