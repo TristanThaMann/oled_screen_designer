@@ -2,6 +2,11 @@
 
 A GUI tool for visually designing layouts for SSD1306 and similar OLED displays. Renders elements through PIL/Pillow to a 1-bit canvas that accurately matches what the physical display will show, then exports ready-to-use Python drawing code.  Fair warning: much of this code was AI generated, and there *is* bugs, report them if you find any and I will do my best to fix them in a timely manner. Thank you!
 
+## Screenshot
+
+Last but not least:
+![Screenshot](/ss.png)
+
 ## Features
 
 - WYSIWYG canvas scaled 4× from real OLED pixel coordinates
@@ -16,15 +21,15 @@ A GUI tool for visually designing layouts for SSD1306 and similar OLED displays.
 ## Requirements
 
 ```
-pillow tkinter
+python3 -m pip install pillow tkinter
 ```
 
-All other dependencies in `requirements.txt` are for the broader `display2` project and are not required to run the designer.
+
 
 ## Usage
 
-```bash
-python designer_gui.py
+```bash or cmd
+python3 designer_gui.py
 ```
 
 ### Keyboard shortcuts
@@ -53,7 +58,4 @@ draw.rectangle((0, 10, 127, 63), outline="white")
 draw.line((0, 10, 127, 10), fill="white")
 ```
 
-## Screenshot
 
-Last but not least:
-![Screenshot](/ss.png)
