@@ -16,7 +16,7 @@ A GUI tool for visually designing layouts for SSD1306 and similar OLED displays.
 ## Requirements
 
 ```
-pillow
+pillow tkinter
 ```
 
 All other dependencies in `requirements.txt` are for the broader `display2` project and are not required to run the designer.
