@@ -4,7 +4,6 @@ A GUI tool for visually designing layouts for SSD1306 and similar OLED displays.
 
 ## Screenshot
 
-Last but not least:
 ![Screenshot](/ss.png)
 
 ## Features
